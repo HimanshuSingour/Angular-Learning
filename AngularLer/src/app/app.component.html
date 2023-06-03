@@ -1,0 +1,52 @@
+<div>
+    <h1>Hey Himanshu! Learning Angular Wow Hopefully Your Are Doing Great</h1>
+</div>
+
+<form class="form" [formGroup]="userDetails" (ngSubmit)="getDetails()">
+
+    <input type="text" 
+           placeholder="Enter your name" 
+           formControlName="name"
+           >
+
+    <span *ngIf="name && name.invalid">Your Name Is Invalid</span> 
+           
+    <br> <br>
+
+
+    <input type="password" 
+           placeholder="Enter Your Password"
+           formControlName="password"
+           >
+
+           <span *ngIf="password && password.invalid">Your password Is Invalid</span> 
+    <br> <br>
+
+    <input type="email" 
+           placeholder="Enter Your Email"
+           formControlName="email"
+        
+           > 
+           <span *ngIf="email && email.invalid">Your email Is Invalid</span>
+
+    <br> <br>
+
+
+    <input class="as" 
+           type="text" 
+           placeholder="Enter Your age"
+           formControlName="age"
+          
+           >
+
+    <br> <br>
+
+    <button [disabled]="userDetails.invalid">Show Details</button>
+
+</form>
+
+
+
+<div>
+    <h1>Thanx For Visiting! Himanshu</h1>
+</div>

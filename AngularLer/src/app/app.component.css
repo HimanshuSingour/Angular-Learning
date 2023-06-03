@@ -1,0 +1,60 @@
+div{
+
+    background-color: orange;
+    padding-left: 18%;
+}
+
+button{
+
+    background-color: red;
+    border: black;
+    color: white;
+    padding: 15px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+
+form{
+
+    padding-left: 5%;
+    padding-top: 5%;
+    background-color: blue;
+}
+
+input{
+
+    background-color: whitesmoke;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-align: left ;
+    font-size: 20px;
+    text-align: left;
+
+ }
+
+ ::placeholder{
+
+    color: black;
+
+   
+ }
+
+ span{
+
+    color: white;
+    font-size: large;
+    padding-left: 5%;
+    
+
+
+ }
+
+
+ 
+ 
